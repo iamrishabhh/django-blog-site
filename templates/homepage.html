@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>homepage</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+  </head>
+  <body>
+    <h1>Welcome To MindPalace, miss me?</h1>
+    <p>The name Sherlock Holmes and the address is 221b baker street.</p>
+    {% block content %}
+      {% endblock %}
+  </body>
+</html>
+
+
